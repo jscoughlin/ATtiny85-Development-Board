@@ -1,19 +1,18 @@
-# ATtiny85 Development Board
+# ATtiny85: Arduino Compatible Development Board
 
-Schematic, BOM, and gerber files for an ATtiny85 development board. The board has 2 LEDs, an I/O header, and a USB mini B port. The USB mini B port is only to power the device; you cannot program the ATmega from this port.
+![alt text](https://github.com/jscoughlin/ATtiny85-Development-Board/blob/master/Pictures/JSC151101A_Side.PNG)
+
+I made this cute, lil' board for learning purposes. The board has a good mixture of thru-hole and surface mount components, making it a good board to get started with soldering. Bonus: It can easily be programmed using Arduino!
 
 ## Repository Organization
-The base folder contains the BOM, Schematic, and PCB folders.
+* BOM - Bill of Materials for the development board.
+* Schematic - PDF of the schematic.
+* PCB - Gerber files for this board.
+* Pictures - Shots of the 3D model, in all its glory.
 
-### BOM
-Contains the Bill of Materials for the development board.
+## How do I use Arduino with this?
+I like using Sparkfun's Pocket AVR Programmer. This ATtiny85 dev board already has the ISP (in-system programmer) pins broken out for you to use. More information about how to use the Pocket AVR Programmer can be found [here](https://learn.sparkfun.com/tutorials/pocket-avr-programmer-hookup-guide?_ga=1.69274392.948047713.1412741016).  
 
-### Schematic
-Contains a PDF of the schematic.
-
-### PCB
-Contains gerber files for the board.
-
-### License
+## License
 
 Copyright (c) 2016 James Coughlin. This hardware is open source and is distributed as-is; no warranty is given.
