@@ -1,8 +1,10 @@
-# ATtiny85: Arduino Compatible Development Board
+# Arduino Compatible Development Board
 
 ![alt text](https://github.com/jscoughlin/ATtiny85-Development-Board/blob/master/Pictures/JSC151101A_Side.PNG)
 
-I made this cute, lil' board for learning purposes. The board has a good mixture of thru-hole and surface mount components, making it a good board to get started with soldering. Bonus: It can easily be programmed using Arduino!
+I made this cute, lil' board for learning purposes. The board has a good mixture of thru-hole and surface mount components, making it a good board to get started with learning how to solder. Bonus: It can easily be programmed using Arduino!
+
+The board has an ATtiny85 microcontroller with pins broken out for you to use. It also has a USB - mini B connector so that you can supply power to the board.
 
 ## Repository Organization
 * BOM - Bill of Materials for the development board.
